@@ -8,6 +8,7 @@ def health_check():
     return {
         "status": "ok",
         "service": "cloud-api",
+        "version": "2.0",
         "timestamp": datetime.now().isoformat()
     }
 
